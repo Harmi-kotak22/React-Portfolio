@@ -1,12 +1,71 @@
-# React + Vite
+# React Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website built with React to showcase projects, skills, and contact information. Designed with a modern, responsive layout and smooth user experience.
 
-Currently, two official plugins are available:
+## Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Live Demo](https://react-portfolio-eight-mu-92.vercel.app/)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Responsive design for desktop, tablet, and mobile devices
+- Hero section with gradient text and profile image
+- About section with achievements and detailed info
+- Projects showcase with links and descriptions
+- Contact section with clickable email and social links
+- Smooth animations and hover effects
+- Easy to customize and extend
+
+## Technologies Used
+
+- React.js (with hooks and functional components)
+- CSS3 (Flexbox, gradients, media queries)
+- Vercel for deployment
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js and npm installed on your machine
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Harmi-kotak22/react-portfolio.git
+
+2. Navigate into the project directory:
+   cd react-portfolio
+3. Install dependencies:
+    npm install
+4. Start the development server:
+    npm start
+    Open http://localhost:3000 to view it in your browser.
+
+    Build
+    To create a production build:
+    npm run build
+    Deployment
+    This project is deployed on Vercel. For deployment:
+
+Connect your GitHub repository to Vercel.
+
+Set up automatic deployment on push to the main branch.
+
+Customization
+Update content inside /src/components to modify sections.
+
+Modify styles in CSS files (e.g., /src/App.css).
+
+Replace profile images and update links as needed.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Contact
+Your Name — harmi.kotak@gmail.com
+Portfolio: https://react-portfolio-eight-mu-92.vercel.app/
+LinkedIn: https://linkedin.com/in/harmi-kotak
+GitHub: https://github.com/Harmi-kotak22
+
