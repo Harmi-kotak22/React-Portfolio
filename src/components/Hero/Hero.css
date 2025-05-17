@@ -1,0 +1,222 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;  /* Center horizontally */
+  gap: 60px;
+  padding: 60px 40px;
+/* background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); */
+  min-height: 90vh;
+  flex-wrap: wrap; /* Allow wrapping on small screens */
+}
+
+.hero-image-container {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 50%; /* circle */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   border: 5px solid rgb(112, 160, 223);
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+
+}
+
+.hero-image-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+ 
+}
+
+
+
+.hero h1 {
+  flex: 1;  /* Take remaining space */
+  font-size: 70px;
+  font-weight: 600;
+  margin: 0;
+  color: white;
+  line-height: 1.1;
+}
+
+.hero h1 span {
+  background: linear-gradient(270deg, orange 10%, pink 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  font-size: 24px;
+  line-height: 40px;
+  color: #cbd5e1;
+  margin: 20px auto;
+}
+
+.hero-action {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  flex-wrap: wrap; /* Wrap buttons on small screens */
+  justify-content: center;
+}
+
+.hero-connect,
+.hero-resume {
+  padding: 25px 45px;
+  cursor: pointer;
+  border-radius: 50px;
+  white-space: nowrap; /* Prevent text wrap inside buttons */
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  transition: border-color 0.3s;
+}
+
+.hero-connect {
+  background: linear-gradient(264deg, orange 10%, pink 100%);
+  border: none;
+}
+
+.hero-resume {
+  border: 2px solid white;
+  padding: 25px 75px;
+  background: transparent;
+}
+
+.hero-connect:hover {
+  border: 2px solid white;
+}
+
+.hero-resume:hover {
+  border-color: purple;
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+  .hero {
+    flex-direction: column;
+    min-height: auto;
+    padding: 40px 20px;
+  }
+
+  .hero h1 {
+    font-size: 48px;
+    text-align: center;
+  }
+
+  .hero img {
+    max-width: 80%;
+    margin-bottom: 30px;
+  }
+
+  .hero-action {
+    justify-content: center;
+    gap: 15px;
+    font-size: 20px;
+  }
+
+  .hero-resume {
+    padding: 20px 50px;
+  }
+
+  .hero-connect {
+    padding: 20px 35px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .hero p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .hero-connect,
+  .hero-resume {
+    font-size: 18px;
+    padding: 15px 25px;
+  }
+}
+
+
+/* ===== Keep your original styles as is ===== */
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+  .hero {
+    flex-direction: column; /* Stack vertically on smaller screens */
+    min-height: auto;       /* Remove fixed height */
+    padding: 40px 20px;
+    gap: 40px;              /* Slightly reduce gap */
+  }
+
+  .hero-image-container {
+    width: 220px;           /* Smaller circle on smaller screens */
+    height: 220px;
+    margin-bottom: 20px;    /* Space below image */
+  }
+
+  .hero h1 {
+    font-size: 48px;
+    text-align: center;     /* Center text */
+    flex: unset;            /* Remove flex-grow so text size stays stable */
+  }
+
+  .hero p {
+    max-width: 90%;         /* Slightly wider paragraph */
+    font-size: 20px;
+    line-height: 32px;
+    margin: 0 auto 20px;
+    text-align: center;
+  }
+
+  .hero-action {
+    justify-content: center;
+    gap: 15px;
+    font-size: 20px;
+  }
+
+  .hero-resume {
+    padding: 20px 50px;
+  }
+
+  .hero-connect {
+    padding: 20px 35px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-image-container {
+    width: 180px;       /* Even smaller on very small screens */
+    height: 180px;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .hero p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .hero-connect,
+  .hero-resume {
+    font-size: 18px;
+    padding: 15px 25px;
+  }
+}

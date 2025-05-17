@@ -1,0 +1,62 @@
+.experiences {
+  text-align: center;
+  /* padding: 40px 20px; */
+  /* background-color: #1f2a56; Dark blue background */
+}
+
+.experiences-title h1 {
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #ffa500; /* orange-yellow underline */
+  display: inline-block;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+
+.experience-sections {
+  padding: 30px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: #243a76; /* Consistent with dark theme */
+}
+
+.experience-sections li {
+  list-style: none;
+  border: 1px solid #445b96;
+  border-left: 6px solid #ff8c00; /* orange accent */
+  background: #1a2757;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  color: #e0e0e0;
+}
+
+.experience-sections h3 {
+        list-style-type: disc; /* Use disc bullets */
+
+  font-size: 1.4rem;
+  margin-bottom: 12px;
+  color: #ffffff;
+  background: linear-gradient(to right, #ff9966, #ff5e62);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.experience-list ul {
+
+  padding-left: 20px;
+}
+
+.experience-list li {
+  margin-bottom: 10px;
+  color: #cbd5e1;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+.experience-sections li:hover {
+  transform: scale(1.02);
+  transition: transform 0.2s ease;
+  border-left-color: #ff69b4; /* pink on hover */
+}

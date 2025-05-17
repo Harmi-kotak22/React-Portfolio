@@ -1,0 +1,74 @@
+/* ===== Custom Portfolio Styles ===== */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+/* background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); */
+/* background: linear-gradient(120deg, #0f2027, #203a43, #2c5364, #0f2027); */
+  background: radial-gradient(circle at center, #0d1b2a 0%, #1f2a56 100%);
+
+  color: #7595ca;
+  margin: 0;
+  padding: 0;
+}
+
+/* Heading */
+h1 {
+  color: #f1f2f5;
+  font-size: 2.5rem;
+  margin-top: 20px;
+}
+
+/* Section Styling */
+section {
+  margin: 40px auto;
+  padding: 40px 20px;
+  max-width: 960px;
+  background: #060b0d;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Section Headings */
+section h2 {
+  font-size: 2rem;
+  color: #2563eb;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #2563eb;
+  padding-bottom: 10px;
+}
+
+/* Button (if used) */
+button {
+  background-color: #3b82f6;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2563eb;
+}
+
+/* Link Styling */
+a {
+  color: #2563eb;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+button:hover {
+  background-color: #2563eb;
+  transform: scale(1.05);
+}
+
+button {
+  transition: all 0.3s ease;
+} 

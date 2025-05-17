@@ -1,0 +1,58 @@
+.skills {
+  text-align: center;
+  padding: 40px 20px;
+  /* background-color: #1f2a56; Dark blue background */
+}
+
+.skills-title h1 {
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #ffa500; /* orange-yellow underline */
+  display: inline-block;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+
+.technical-skills,
+.non-technical {
+  padding: 30px 40px;
+  margin: 20px auto;
+  width: 80%;
+  background-color: #243a76;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  color: #e0e0e0;
+  text-align: left;
+}
+
+.technical-skills h4,
+.non-technical h4 {
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+  color: #ffffff;
+  background: linear-gradient(to right, #ff9966, #ff5e62);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.technical-skills h2,
+.non-technical h2 {
+  font-size: 1.1rem;
+  margin: 10px 0;
+  color: #cbd5e1;
+  line-height: 1.6;
+  border-left: 4px solid #ff8c00;
+  padding-left: 10px;
+  background-color: #1a2757;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.technical-skills h2:hover,
+.non-technical h2:hover {
+  transform: scale(1.02);
+  transition: transform 0.2s ease;
+  border-left-color: #ff69b4; /* pink on hover */
+}
