@@ -16,11 +16,11 @@ const Contacts = () => {
           <p>harmi.kotak@gmail.com</p>
         </div>
 
-        <div className="contact-item">
+        {/* <div className="contact-item">
           <FaPhone className="contact-icon" />
           <h3>Phone:</h3>
           <p>+91 6354397084</p>
-        </div>
+        </div> */}
 
         <div className="contact-item">
           <FaLinkedin className="contact-icon" />
