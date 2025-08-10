@@ -14,7 +14,7 @@ const About = () => {
         <div className="about-right">
           <div className="about-para">
             <p>
-I'm a second-year undergraduate student at Dharmasinh Desai University, currently serving as a Technical Associate at the Computer Society of India (CSI). With a strong foundation in computer science and a passion for problem-solving, I'm actively working toward becoming a skilled software engineer. Alongside my core studies, I'm enthusiastically exploring the fields of Artificial Intelligence and Machine Learning, driven by curiosity and a desire to build impactful, intelligent systems. I'm always eager to learn, collaborate, and grow through hands-on projects and meaningful experiences.            </p>
+I'm a second-year undergraduate student at Dharmsinh Desai University, currently serving as a President at the Computer Society of India (CSI). With a strong foundation in computer science and a passion for problem-solving, I'm actively working toward becoming a skilled software engineer. Alongside my core studies, I'm enthusiastically exploring the fields of Artificial Intelligence and Machine Learning, driven by curiosity and a desire to build impactful, intelligent systems. I'm always eager to learn, collaborate, and grow through hands-on projects and meaningful experiences.            </p>
           </div>
         </div>
       </div>

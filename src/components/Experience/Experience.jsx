@@ -10,6 +10,16 @@ const Experience = () => {
                 </div>
             </div>
             <div className="experience-sections">
+                 <li>
+                    <h3>
+                        President at Computer Society Of India
+                    </h3>
+                    <div className="experience-list">
+                        <ul>
+                            
+                        </ul>
+                    </div>
+                </li>    
                 <li>
                     <h3>
                         Technical Associate at Computer Society Of India

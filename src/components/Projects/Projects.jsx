@@ -30,19 +30,19 @@ const Projects = () =>
                     </h3>
                     <div className="project-info">
                         <ul>
-                            <li>TechStack: Java Springboot</li>
+                            <li>TechStack: Java Springboot,React</li>
                             <li>A college club event management system that manages the basic crud operations along with spring security implementation.</li>
                         </ul>
                     </div>
                 </li>    
                 <li>
                     <h3>
-                        ComPair
+                        Codalyze
                     </h3>
                     <div className="project-info">
                         <ul>
-                            <li>TechStack: Java,XML</li>
-                            <li>A product recommendation system that recommends products to users by fetching real time data and comparing them based on various parameters.</li>
+                            <li>TechStack: Flask</li>
+                            <li>A role based code analyzer that analyzes codes based on role frontend,backend,project manager,etc. Suppports ER diagram and UML  diagram generation.</li>
                         </ul>
                     </div>
                 </li> 
