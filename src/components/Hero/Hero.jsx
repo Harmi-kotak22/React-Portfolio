@@ -14,7 +14,7 @@ const Hero = () => {
             Connect With Me
         </a>
         <a
-          href="https://drive.google.com/file/d/1vKyYemOWuNHRBOjLK8ALtSG7755j91jD/view?usp=sharing" // Replace with your actual link
+          href="https://drive.google.com/file/d/15NJEWErE0oUilWrLYQIaen2-nsHXvdv7/view?usp=sharing" // Replace with your actual link
           target="_blank"
           rel="noopener noreferrer"
           className="hero-resume"
