@@ -15,16 +15,22 @@ const Skills = () =>
             Technical Skills
           </h4>
           <h2>
-            Programming Languages:  C, C++, Java, Python , Javasscript , PHP
+            Core Technologies:DBMS, DSA, OOP, OS, Software Engineering, Problem Solving,Machine Learning  
           </h2>
           <h2>
-            Scripting Languages: HTML , CSS 
+            Languages:C++, Java, C, JavaScript,Flutter,Python
           </h2>
           <h2>
-            Frameworks : SpringBoot, Hibernate , Django
+            Database :  MySQL, Firebase, MongoDB
           </h2>
           <h2>
-            Core CS: DBMS 
+            Web/Software Dev: Spring Boot, Hibernate, MERN,REST APIs,Dotnet 
+          </h2>
+          <h2>
+            Tools:Git, Postman, GitHub,AI Tools,Docker
+          </h2>
+          <h2>
+            Non-Tech: Leadership, Communication, Team Coordination, Management, Public Speaking
           </h2>
         </div>
         <div className="non-technical">

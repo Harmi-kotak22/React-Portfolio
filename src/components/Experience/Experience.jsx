@@ -16,7 +16,8 @@ const Experience = () => {
                     </h3>
                     <div className="experience-list">
                         <ul>
-                            
+                            <li>Leading team operations, organizing university-wide technical events.</li>
+                            <li>Collaborating with industry experts to deliver impactful sessions.</li>
                         </ul>
                     </div>
                 </li>    

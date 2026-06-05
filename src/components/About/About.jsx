@@ -14,40 +14,38 @@ const About = () => {
         <div className="about-right">
           <div className="about-para">
             <p>
-I'm a second-year undergraduate student at Dharmsinh Desai University, currently serving as a President at the Computer Society of India (CSI). With a strong foundation in computer science and a passion for problem-solving, I'm actively working toward becoming a skilled software engineer. Alongside my core studies, I'm enthusiastically exploring the fields of Artificial Intelligence and Machine Learning, driven by curiosity and a desire to build impactful, intelligent systems. I'm always eager to learn, collaborate, and grow through hands-on projects and meaningful experiences.            </p>
+  I'm Harmi Kotak — a final-year Computer Engineering student at Dharmsinh Desai University (DDU) and the former President of the CSI DDU Chapter. I build full-stack web applications, AI/ML models, and mobile apps, and I enjoy leading teams, speaking at events, and launching projects under tight deadlines. My hands-on work has earned Top 6 at the GDG Rajkot Hackathon (65+ teams) and selection among the Top 150 teams at Robofest, where I advanced to the prototyping round. I also led technical initiatives, workshops, and collaborations during my CSI tenure. I maintain a CPI of 9.10, love learning through projects and hackathons, and I'm open to freelancing, collaborations, and SDE roles — always excited to connect and build things that matter.
+              </p>
           </div>
         </div>
       </div>
       <div className="about-achievements">
-        <div className="about-achievement">
-          <h1>
-            C++ : NPTEL CERTIFIED
-          </h1>
+        <div className="achievements-grid">
+          <div className="achievement-card">
+            <h3>C++ — NPTEL Certified</h3>
+            <p>Completed certification to strengthen core programming skills.</p>
+          </div>
+
+          <div className="achievement-card">
+            <h3>DBMS — NPTEL Certified</h3>
+            <p>Focused on database design, SQL, and normalization concepts.</p>
+          </div>
+
+          <div className="achievement-card">
+            <h3>GDG Rajkot — Agentic Premier League</h3>
+            <p>Secured Top 6 spot among 65+ teams.</p>
+          </div>
+
+          <div className="achievement-card">
+            <h3>DUHacks 3.0</h3>
+            <p>Hackathon participant — 2025 edition.</p>
+          </div>
+
+          <div className="achievement-card">
+            <h3>Robofest 4.0</h3>
+            <p>Qualified for POC level out of 160+ teams; advanced to prototyping.</p>
+          </div>
         </div>
-        <hr />
-        <div className="about-achievement">
-
-          <h1>
-            DBMS : NPTEL CERTIFIED
-          </h1>
-        </div>
-        <hr />
-        <div className="about-achievement">
-
-          <h1>
-            DUHacks 3.0: Hackathon Participation 2025
-          </h1>
-        </div>
-        <hr />
-        <div className="about-achievement">
-
-          <h1>
-            Robofest 4.0 : Qualified for POC Level out of 160+ teams
-          </h1>
-        </div>
-        <hr />
-
-
       </div>
     </div>
 
