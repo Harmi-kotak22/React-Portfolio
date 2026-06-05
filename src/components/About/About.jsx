@@ -32,6 +32,11 @@ const About = () => {
           </div>
 
           <div className="achievement-card">
+            <h3>GATE CS 2026 — Qualified</h3>
+            <p>All India Rank (AIR): 12,764 — qualified in Computer Science (2026).</p>
+          </div>
+
+          <div className="achievement-card">
             <h3>GDG Rajkot — Agentic Premier League</h3>
             <p>Secured Top 6 spot among 65+ teams.</p>
           </div>
